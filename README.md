@@ -1,23 +1,19 @@
 # MicrohabitatChoice_ColorPolymorphism
-
 Raw data files and analysis codes from the study '**Color-based microhabitat choice does not contribute to existing shell color polymorphisms in a marine snail**', by Ramón Vigo, Rubén Camesella, Carlos Pérez, Víctor Martínez-Mariño, André Vidal-Capón, Juan Gefaell, and Emilio Rolán-Alvarez, under review in _Journal of Molluscan Studies_
-## Description of the data and file structure
 
+## Description of the data and file structure
 We conducted two mark-recapture experiments to study the role of microhabitat choice in the maintenance of *Littorina saxatilis* shell color polymorphsim, particularly within intermediate populations of a color cline along de Ria de Vigo (NE Iberian Peninsula). 
 We followed slightly different designs for each experiment, but with the same objective: determine in the field whether this species actively chooses a microhabitat and if this decision can be color-based (matching shell and substrate color).
 
-## File and variables
-
-### File: MicrohabitatChoice_RawData.xlsx
-**Description:** 
+## File: MicrohabitatChoice_RawData.xlsx
 This file is divided into 4 sheets, corresponding with the raw data and the codes of the variables for each experiment:
 - 'HC_2023': Raw data of Experiment 1 (Canabal)
 - 'CODES_2023': Codes of the variables included in Experiment 1 (Canabal)
 - 'HC_2024': Raw data of Experiment 2 (Portino)
 - 'CODES_2024': Codes of the variables included in Experiment 2 (Portino)
-## Experiment 1
-#### Variables description
 
+### Experiment 1
+#### Variables description
 | Variable            | Description                                                                 |
 | ------------------- | --------------------------------------------------------------------------- |
 | quadrat             | Quadrat replicate                                                           |
@@ -37,7 +33,6 @@ This file is divided into 4 sheets, corresponding with the raw data and the code
 | sex                 | Sex of the snail, based on the presence or absence of a penis               |
 
 ##### Qualitative variables levels
-
 | Levels | habitat_in         | color    | scar  | recapture | habitat_out        | direction | sex      |
 | -----: | ------------------ | :------- | ----- | --------- | ------------------ | --------- | -------- |
 |     -1 |                    |          |       |           |                    | earth     |          |
@@ -45,10 +40,8 @@ This file is divided into 4 sheets, corresponding with the raw data and the code
 |      1 | black lichen patch | lineata  | false | false     | black lichen patch | sea       | male     |
 |      2 |                    |          |       |           |                    |           | female   |
 
-
-## Experiment 2
+### Experiment 2
 #### Variables description
-
 | Variable       | Description                                                                 |
 | -------------- | --------------------------------------------------------------------------- |
 | session        | Temporal session of the experiment                                          |
@@ -66,7 +59,6 @@ This file is divided into 4 sheets, corresponding with the raw data and the code
 | sex            | Sex of the snail, based on the presence or absence of a penis               |
 
 ##### Qualitative variables levels
-
 | Levels | color    | scar  | recapture | habitat            | inside | direction    |
 | -----: | :------- | ----- | --------- | ------------------ | ------ | ------------ |
 |     -1 |          |       |           |                    |        | earth        |
