@@ -1,7 +1,8 @@
 setwd("") # Working directory with the raw data
-library(readxl)
-rawdata_canabal <- read_excel("HabitatChoice_Data.xlsx", sheet = "HC_2023")
-rawdata_portino <- read_excel("HabitatChoice_Data.xlsx", sheet = "HC_2024")
+
+library(readxl) # Open the raw data files
+rawdata_canabal <- read_excel("MicrohabitatChoice_RawData.xlsx", sheet = "HC_2023")
+rawdata_portino <- read_excel("MicrohabitatChoice_RawData.xlsx", sheet = "HC_2024")
 
 # Canabal (2023) ----------------------------------------------------------
 library(tidyverse)
@@ -174,7 +175,7 @@ glm_canabal_def %>% powerSim(., fixed("habitat_in"),
                              nsim = 1000)
 # OUTPUT: 82.7% of power with our actual sample size (n = 99)
 
-# Mean distance crawled crawled by those snails that changed their habitat or remained; Figure 2
+# Mean distance crawled by those snails that changed their habitat or remained; Figure 2
 data_canabal %>% filter(recapture == "recaptured") %>% 
   group_by(change, color) %>% 
   summarise(mean_distance = mean(snail_distance),
