@@ -33,17 +33,18 @@ This file is divided into 4 sheets, corresponding with the raw data and the code
 | sex                 | Sex of the snail, based on the presence or absence of a penis               |
 
 ##### Qualitative variables levels
-| Levels | habitat_in         | color    | scar  | recapture | habitat_out        | direction | sex      |
-| -----: | ------------------ | :------- | ----- | --------- | ------------------ | --------- | -------- |
-|     -1 |                    |          |       |           |                    | earth     |          |
-|      0 | bare rock          | aurantia | true  | true      | bare rock          |           | immature |
-|      1 | black lichen patch | lineata  | false | false     | black lichen patch | sea       | male     |
-|      2 |                    |          |       |           |                    |           | female   |
+| Levels |         habitat_in |    color |  scar | recapture |        habitat_out | direction |      sex |
+| -----: | -----------------: | -------: | ----: | --------: | -----------------: | --------: | -------: |
+|     -1 |                    |          |       |           |                    |     earth |          |
+|      0 |          bare rock | aurantia |  true |      true |          bare rock |           | immature |
+|      1 | black lichen patch |  lineata | false |     false | black lichen patch |       sea |     male |
+|      2 |                    |          |       |           |                    |           |   female |
+
 
 ### Experiment 2
 #### Variables description
 | Variable       | Description                                                                 |
-| -------------- | --------------------------------------------------------------------------- |
+| :------------- | :-------------------------------------------------------------------------- |
 | session        | Temporal session of the experiment                                          |
 | quadrat        | Quadrat replicate                                                           |
 | snail_ID       | Individual snail ID                                                         |
@@ -59,12 +60,13 @@ This file is divided into 4 sheets, corresponding with the raw data and the code
 | sex            | Sex of the snail, based on the presence or absence of a penis               |
 
 ##### Qualitative variables levels
-| Levels | color    | scar  | recapture | habitat            | inside | direction    |
-| -----: | :------- | ----- | --------- | ------------------ | ------ | ------------ |
-|     -1 |          |       |           |                    |        | earth        |
-|      0 | aurantia | true  | true      | bare rock          | false  | intermediate |
-|      1 | lineata  | false | false     | barnacle-covered   | true   | sea          |
-|      2 |          |       |           | crevice            |        |              |
+| Levels |    color |  scar | recapture |            habitat | inside |    direction |
+| -----: | -------: | ----: | --------: | -----------------: | -----: | -----------: |
+|     -1 |          |       |           |                    |        |        earth |
+|      0 | aurantia |  true |      true |          bare rock |  false | intermediate |
+|      1 |  lineata | false |     false |   barnacle-covered |   true |          sea |
+|      2 |          |       |           |            crevice |        |              |
 |      3 |          |       |           | black lichen patch |        |              |
-|      4 |          |       |           | tide pool          |        |              |
+|      4 |          |       |           |          tide pool |        |              |
+
 
