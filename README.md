@@ -1,6 +1,6 @@
 # MicrohabitatChoice_ColorPolymorphism
 
-Raw data files and analysis codes from the study 'Color-based microhabitat choice does not contribute to existing shell color polymorphisms in a marine snail', by Ramón Vigo, Rubén Camesella, Carlos Pérez, Víctor Martínez-Mariño, André Vidal-Capón, Juan Gefaell, and Emilio Rolán-Alvarez, under review in Journal of Molluscan Studies
+Raw data files and analysis codes from the study '**Color-based microhabitat choice does not contribute to existing shell color polymorphisms in a marine snail**', by Ramón Vigo, Rubén Camesella, Carlos Pérez, Víctor Martínez-Mariño, André Vidal-Capón, Juan Gefaell, and Emilio Rolán-Alvarez, under review in _Journal of Molluscan Studies_
 ## Description of the data and file structure
 
 We conducted two mark-recapture experiments to study the role of microhabitat choice in the maintenance of *Littorina saxatilis* shell color polymorphsim, particularly within intermediate populations of a color cline along de Ria de Vigo (NE Iberian Peninsula). 
